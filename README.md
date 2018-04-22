@@ -12,64 +12,30 @@ This theme build with the following:
 ## Theme Structure
 
 ```shell
-acmx/                             # → Root of your ACMX
-├── _resources/
-│   ├── js/
-│   │
-│   └── sass/
-│       ├── core/
-│       │   ├── fonts.scss
-│       │   ├── mixins.scss
-│       │   └── resets.scss
-│       │
-│       ├── fragments/
-│       │   ├── footer.scss
-│       │   ├── header.scss
-│       │   ├── menu.scss
-│       │   ├── router.scss
-│       │   └── search.scss
-│       │
-│       └── wp-editor.scss
+acmx/                     # → Root of your ACMX
+├── _resources/           # → Theme scripts and styles
+│   ├── js/               
+│   └── sass/             
 │
-├── assets
-│   ├── fonts/
-│   ├── images/
-│   ├── scripts/
-│   │   └── includes/
-│   ├── styles/
-│   └── videos/
+├── assets                # → Theme assets
+│   ├── fonts/            # → Theme webfonts
+│   ├── images/           # → Theme images
+│   ├── scripts/          # → Compiled script
+│   │   └── includes/     
+│   ├── styles/           # → Compiled styles
+│   └── videos/           # → Theme videos
 │
 ├── temp/
 │
-├── template-parts/
+├── template-parts/       # → Theme parts
 │   ├── contents/
-│   │   └── home.php
-│   │
 │   ├── fragments/
-│   │   ├── footer.php
-│   │   ├── header.php
-│   │   ├── menu.php
-│   │   ├── router.php
-│   │   └── search.php
-│   │
 │   └── includes/
-│       └── single-part.php
 │
-├── theme-settings/
+├── theme-settings/       # → Theme settings
 │   ├── functions/
-│   │   ├── acf.php
-│   │   ├── assets.php
-│   │   ├── editor.php
-│   │   ├── hooks.php
-│   │   └── theme.php
-│   │
 │   ├── includes/
-│   │   ├── noie.php
-│   │   └── nojs.php
-│   │
 │   └── mail/
-│       ├── process.php
-│       └── spam.php
 │
 ├── -home.php
 ├── -page.php
