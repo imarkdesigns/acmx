@@ -8,6 +8,9 @@ This theme build with the following:
 - SCSS
 - jQuery
 - JavaScript Routing
+- Soil
+- Advanced Custom Fields
+- Yoast
 
 ## Theme Structure
 
